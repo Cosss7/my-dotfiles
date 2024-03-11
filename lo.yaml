@@ -1,2 +1,4 @@
 hyprland:
   - hyrpland.conf: "$HOME/.config/hyprland/hyprland.conf"
+linux-dotfiles:
+  - .barshrc: "$HOME/.barshrc"
