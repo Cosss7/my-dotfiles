@@ -1,0 +1,13 @@
+[wsl2]
+processors=6
+memory=6GB
+swap=6GB
+localhostForwarding=true
+networkingMode=mirrored
+dnsTunneling=true
+autoProxy=false
+firewall=false
+[experimental]
+sparseVhd=true
+autoMemoryReclaim=dropcache
+hostAddressLoopback=true
