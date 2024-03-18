@@ -19,7 +19,7 @@ alias ll='ls -l'
 alias gotowork='ssh wangyuxuan@relay.xiaomi.com'
 alias exitwork='ssh -O exit wangyuxuan@relay.xiaomi.com'
 
-eval `dircolors ~/.dircolors/solarized.256dark`
+#eval `dircolors ~/.dircolors/solarized.256dark`
 
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn

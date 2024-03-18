@@ -3,3 +3,5 @@ hyprland:
 linux-dotfiles:
   - .barshrc: "$HOME/.barshrc"
   - .tmux.conf: "$HOME/.tmux.conf"
+  - daemon.json: "/etc/docker/daemon.json"
+  - network-mirrored.service: "/etc/systemd/system/network-mirrored.service"
