@@ -6,7 +6,7 @@ localhostForwarding=true
 networkingMode=mirrored
 dnsTunneling=true
 autoProxy=false
-firewall=false
+firewall=true
 [experimental]
 sparseVhd=true
 autoMemoryReclaim=dropcache
