@@ -29,7 +29,7 @@ export HISTCONTROL=ignoredups
 # podman
 alias podman='sudo podman'
 alias podman-compose='sudo podman-compose'
-export DOCKER_BUILDKIT=0
+#export DOCKER_BUILDKIT=0
 
 # wsl
 wsl_mount_root=/mnt
