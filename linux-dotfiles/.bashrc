@@ -77,3 +77,6 @@ export http_proxy='http://127.0.0.1:23333'
 #			export DISPLAY=:${wsl_wslg_display}
 #        fi
 #fi
+
+# let cursor in tmux blink
+printf "\e[?12h"
