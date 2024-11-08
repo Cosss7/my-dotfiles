@@ -44,6 +44,8 @@ alias podman-compose='sudo podman-compose'
     # https://unix.stackexchange.com/questions/139115/disable-ctrl-d-from-closing-my-window-with-the-terminator-terminal-emulator
     # press three times ctrl+d can send EOF to terminal
     export IGNOREEOF=3
+		# editor for tmux
+		export EDITOR=vim
     # bash prompt PS1 >
         # Define Powerline symbols
         readonly PS_SYMBOL_DARWIN=''
