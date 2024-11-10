@@ -403,6 +403,8 @@ bind -r n next-window     # select next window
 
 # prevent exit copy mode
 bind -T copy-mode-vi MouseDragEnd1Pane send -X copy-selection-no-clear
+bind -T copy-mode-vi q send -X cancel
+bind -T copy-mode-vi Escape send -X clear-selection
 
 
 # -- tpm -----------------------------------------------------------------------
