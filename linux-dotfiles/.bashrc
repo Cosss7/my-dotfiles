@@ -136,7 +136,8 @@ export LC_ALL=en_US.UTF-8
             PS1="${user_color}\u@\h${reset_color} ${path_color}\w${reset_color} "
             PS1+="${branch_color}\$(parse_git_branch)\$(parse_git_dirty)${reset_color} "
             PS1+="${status_color}\$(parse_git_ahead_behind)${reset_color} "
-            PS1+="${time_color}[\${timer_show}s]${reset_color}\n${PS_SYMBOL} "
+            PS1+="${time_color}[\${timer_show}s]${reset_color} "
+	    PS1+="\[\e[32m\][\$(date \"+%Y-%m-%d %H:%M:%S\")]\[\e[0m\]\n${PS_SYMBOL} "
         }
         function update_prompt {
             timer_stop
