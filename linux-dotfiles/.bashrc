@@ -16,6 +16,8 @@ PS1='[\u@\h \W]\$ '
 # golang
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:${HOME}/go/bin
 
 # podman
 alias podman='sudo podman'
@@ -29,6 +31,16 @@ alias podman-compose='sudo podman-compose'
 # export HTTPS_PROXY='http://127.0.0.1:23333'
 # export HTTP_PROXY='http://127.0.0.1:23333'
 # export http_proxy='http://127.0.0.1:23333'
+
+export no_proxy='172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'
+export https_proxy=http://127.0.0.1:23333
+export NO_PROXY='172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'
+export HTTPS_PROXY=http://127.0.0.1:23333
+export HTTP_PROXY=http://127.0.0.1:23333
+export http_proxy=http://127.0.0.1:23333
+
+# ssh can display utf8 correct
+export LC_ALL=en_US.UTF-8
 
 # LOCAL <
 
