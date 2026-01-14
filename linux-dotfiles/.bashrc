@@ -53,6 +53,8 @@ export LC_ALL=en_US.UTF-8
     export HISTCONTROL=ignoredups
     export HISTSIZE=10000
     export HISTFILESIZE=10000
+    # 改为追加模式而非覆盖
+    shopt -s histappend
     # https://unix.stackexchange.com/questions/139115/disable-ctrl-d-from-closing-my-window-with-the-terminator-terminal-emulator
     # press three times ctrl+d can send EOF to terminal
     export IGNOREEOF=3
