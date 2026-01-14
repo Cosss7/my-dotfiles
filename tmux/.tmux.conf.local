@@ -375,6 +375,9 @@ tmux_conf_urlscan_options="--compact --dedupe"
 
 # this is the place to override or undo settings
 
+# 在不同大小的显示器间切换或调整大小时，tmux 会更积极地重新计算布局
+setw -g window-size latest
+
 # increase history size
 set -g history-limit 10000
 
