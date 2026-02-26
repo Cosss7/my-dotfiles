@@ -409,6 +409,9 @@ bind -T copy-mode-vi MouseDragEnd1Pane send -X copy-selection-no-clear
 bind -T copy-mode-vi q send -X cancel
 bind -T copy-mode-vi Escape send -X clear-selection
 
+# for opencode clipboard work
+set -g allow-passthrough on
+
 # shorter repeat time for quickly quit from prefix status
 set -sg repeat-time 300
 
